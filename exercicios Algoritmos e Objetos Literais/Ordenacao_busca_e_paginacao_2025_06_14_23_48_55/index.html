@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.7/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.7/lib/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+    <table id="tabela">
+  <thead>
+    <tr><th onclick="ordenarTabela()">Nome</th><th>Idade</th></tr>
+  </thead>
+  <tbody id="dadosTabela">
+    <tr><td>Carlos</td><td>30</td></tr>
+     <tr><td>carlos</td><td>20</td></tr>
+    <tr><td>Ana</td><td>25</td></tr>
+    <tr><td>alice</td><td>25</td></tr>
+    <tr><td>Bruno</td><td>28</td></tr>
+    <tr><td>Breno</td><td>28</td></tr>
+    <tr><td>Sofia</td><td>20</td></tr>
+    <tr><td>túlio</td><td>21</td></tr>
+    <tr><td>Helena</td><td>21</td></tr>
+    <tr><td>Vitor</td><td>24</td></tr>
+    <tr><td>Sarah</td><td>33</td></tr>
+    <tr><td>Eva</td><td>21</td></tr>
+    <tr><td>Antony</td><td>20</td></tr>
+    <tr><td>Anna Fátima</td><td>23</td></tr>
+    <tr><td>Eva</td><td>19</td></tr>
+    
+  </tbody>
+</table>
+    <div id="paginacao"></div>
+    
+<input type="text" id="busca" onkeyup="buscarTabela()" placeholder="Buscar por nome">
+     <button onclick="ordenarTabela()">Ordenar por idade</button>
+    
+    
+    
+    
+  </head>
+  <body>
+    <main>
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
